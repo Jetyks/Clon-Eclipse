@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --color-nav-text: rgb(255, 255, 255); /* blanco */
+  --default-white: rgb(255, 255, 255); /* blanco */
 }
 
 body{
@@ -9,6 +9,6 @@ body{
   background-color: rgb(17 24 39);
 }
 
-.nav-bar{
-  color: var(--color-nav-text)
+.default-white{
+  color: var(--default-white)
 }

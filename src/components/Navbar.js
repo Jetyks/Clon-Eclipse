@@ -3,7 +3,7 @@ import Link from "next/link"
 export const NavBar = () => {
   return (
     <header>
-      <nav className="nav-bar my-3 mx-8 items-center flex justify-between">
+      <nav className="default-white my-3 mx-8 items-center flex justify-between">
         <Link href="/" className="text-4xl font-bold ">
           Eclipse
         </Link>
