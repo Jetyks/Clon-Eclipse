@@ -24,7 +24,7 @@ export const NavBar = () => {
             </Link>
           </li>
         </ul>
-        <Link href="/faqs" className="text-sm font-semibold opacity-80 py-2.5 px-4 border border-gray-300 rounded-4xl bg-gray-900">
+        <Link href="/faqs" className="text-sm font-semibold opacity-80 py-2.5 px-4 border border-[#114e6e7e] rounded-4xl bg-gray-900 bg-[radial-gradient(circle_at_center,_#3c9ed37e_10%,_transparent_100%)]">
           Start now
         </Link>
       </nav>
