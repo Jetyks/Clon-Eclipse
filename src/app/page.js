@@ -1,3 +1,4 @@
+import { AppShowcase } from "@/components/AppShowcase";
 import { Hero } from "@/components/Hero";
 import { NavBar } from "@/components/Navbar";
 
@@ -7,6 +8,7 @@ export default function Home() {
     <main>
       <NavBar/>
       <Hero/>
+      <AppShowcase/>
     </main>
   );
 }
