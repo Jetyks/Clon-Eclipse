@@ -12,3 +12,9 @@ body{
 .default-white{
   color: var(--default-white)
 }
+
+.title-2{
+  font-weight: 600;
+  color: var(--default-white);
+  font-size: 36px;
+}
