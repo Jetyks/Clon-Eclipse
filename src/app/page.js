@@ -3,6 +3,7 @@ import { CtaSection } from "@/components/CtaSection";
 import FeaturesSection from "@/components/FeaturesSection";
 import { Hero } from "@/components/Hero";
 import { NavBar } from "@/components/Navbar";
+import { PricingPlans } from "@/components/PricingPlans";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <AppShowcase/>
       <FeaturesSection/>
       <CtaSection/>
+      <PricingPlans/>
     </main>
   );
 }
