@@ -1,5 +1,6 @@
+import { CTAButton } from "./CTAButton";
 
-export const PricingCard = ({name, price, tagline, features, isFeatured}) => {
+export const PricingCard = ({name, price, tagline, features, isFeatured, buttonText}) => {
     const featuredBorderClass = "border-[#3c9fd3]";
     const defaultBorderClass = "border-semitransparent"
     
@@ -14,13 +15,14 @@ export const PricingCard = ({name, price, tagline, features, isFeatured}) => {
         </div>
         <div className="flex flex-col space-y-4 py-7 px-12 text-start">
             {features.map((feature, index) =>(
-                <div
-                 key={index}
-                 className=""
-                 >
-                    <p className="opacity-85">{feature}</p>
-                 </div>
+                    <div
+                    key={index}
+                    className=""
+                    >
+                        <p className="opacity-85">{feature}</p>
+                    </div>
             ))}
+            <div className="mt-5 w-full flex items-center"><CTAButton fullWidth = {true} colorBlue = {isFeatured}>{buttonText}</CTAButton></div>
         </div>
     </div>
   )
