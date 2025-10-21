@@ -15,7 +15,7 @@ export const CtaSection = () => {
         <div className="z-20">
             <h3 className="title-2 mb-2">Build a head start to your finances</h3>
             <p className="opacity-80">Eclipse is the perfect answer! Our platform enables you to create wealth, manage <br/> your expenses, stay up to date with the latest financial news, and get ready for <br/> upcoming tax season.</p>
-            <div className="mt-5"><CTAButton>Start now</CTAButton></div>
+            <div className="mt-5"><CTAButton colorBlue = {true}>Start now</CTAButton></div>
         </div>
     </section>
   )
