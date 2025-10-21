@@ -23,3 +23,7 @@ body{
 .border-b-semitransparent{
   border-bottom: 1px solid var(--transparent-gray);
 }
+
+.border-semitransparent{
+  border: 1px solid var(--transparent-gray);
+}
