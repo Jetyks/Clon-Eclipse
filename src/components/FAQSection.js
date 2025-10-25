@@ -35,7 +35,8 @@ export const FAQSection = ({title, subtitle}) => {
 ];
 
   return (
-    <section className="default-white mt-55">
+    // Anchor target for navbar
+    <section id="faqs" className="default-white mt-55">
         <div className="text-center space-y-3">
             <h3 className="text-4xl font-extrabold">{title}</h3>
             <p>{subtitle}</p>

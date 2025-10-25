@@ -56,7 +56,8 @@ const pricingPlans = [
 
 export const PricingPlans = () => {
   return (
-    <section className="text-center w-full px-8 mt-12 mb-10">
+    // Add id so anchor link '#pricing' scrolls here
+    <section id="pricing" className="text-center w-full px-8 mt-12 mb-10">
         <h3 className="title-2 mb-12">Find a plan to power your finances</h3>
         <div className="h-125 w-full grid grid-cols-3 gap-6 ">
             {pricingPlans.map((plan) =>(

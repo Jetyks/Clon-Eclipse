@@ -10,6 +10,11 @@ body{
   background-color: rgb(17 24 39);
 }
 
+/* Smooth scrolling for in-page anchors */
+html {
+  scroll-behavior: smooth;
+}
+
 .default-white{
   color: var(--default-white)
 }
