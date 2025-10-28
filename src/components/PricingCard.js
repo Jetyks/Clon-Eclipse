@@ -1,3 +1,4 @@
+import CheckIcon from "./CheckIcon";
 import { CTAButton } from "./CTAButton";
 
 export const PricingCard = ({name, price, tagline, features, isFeatured, buttonText}) => {
@@ -13,14 +14,17 @@ export const PricingCard = ({name, price, tagline, features, isFeatured, buttonT
             <p className="text-3xl font-medium">{price} <span className="opacity-65 text-xl">/mo</span></p>
             <p className='opacity-65'>{tagline}</p>
         </div>
-        <div className="flex flex-col space-y-4 py-7 px-12 text-start">
+        <div className="flex flex-col space-y-4 py-7 px-9 text-start">
             {features.map((feature, index) =>(
+                <div key={index} className="flex flex-row">
+                    <div className="flex justify-center items-center pr-5"> <CheckIcon color="#3c9fd3"/></div>
                     <div
                     key={index}
                     className=""
                     >
                         <p className="opacity-85">{feature}</p>
                     </div>
+                </div>
             ))}
             <div className="mt-5 w-full flex items-center"><CTAButton fullWidth = {true} colorBlue = {isFeatured}>{buttonText}</CTAButton></div>
         </div>
